@@ -19,12 +19,9 @@ void data_create(){
 
     for (i=0; i<N; i++) {
         a[i] =  (double)rand()/RAND_MAX;
-        // printf("%lf ",a[i]);
     }
-    // printf("\n");
     for (i=0; i<N; i++) {
         b[i] =  (double)rand()/RAND_MAX;
-        // printf("%lf ",b[i]);
     }
 }
 
